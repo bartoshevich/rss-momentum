@@ -1,0 +1,73 @@
+
+.quote__block {
+  display: grid;
+  grid-template-columns: 1fr min(50ch, calc(100% - 64px)) 1fr;
+  grid-column-gap: 32px;
+  justify-items: center;
+}
+
+.quote__block > * {
+  grid-column: 2;
+}
+
+
+.change-quote {
+    margin-bottom: var(--space-xs);
+    background-image: url("../svg/reload.svg");  
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: var(--space-m);
+  }
+  
+  .quote {
+    min-height: 32px;
+    position: relative;
+    font-size: var(--step-0);
+    font-style: italic;
+    text-align: left;
+  }
+  
+
+  .quote::before {
+    content: '\201E';
+    display: inline-block;
+    position: absolute;
+    color: #fff;   
+    left: -.5em;
+    top: -.85em;
+    font-size: var(--step-5);
+    line-height: 1;
+  }
+
+
+  .author__block {
+    display: flex;
+    justify-content: end;
+  }
+
+  .author {
+    align-self: right;
+    min-height: 20px;
+    font-size: var(--step--1);
+    text-align: right;
+    position: relative;
+  }
+
+
+  .author::before {
+    content: '— ';
+    display: inline-block;
+    position: absolute;
+    color: #fff;   
+    left: -1em;
+    top: .1em;
+    font-size: var(--step-0);
+    line-height: 1;
+  }
+  
+@media (min-width: 1300px) {
+  .author::before {
+    top: .08em;
+  }
+}
+  

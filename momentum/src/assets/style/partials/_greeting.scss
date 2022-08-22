@@ -1,0 +1,109 @@
+.name__wrapper {
+    margin-top: var(--space-xs);
+    display: flex;
+    flex-direction: row;
+
+    row-gap: 16px;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.name__input {
+    color: #fff;
+    background-color: transparent;
+    padding: var(--space-2xs);
+    border-bottom: 1px #fff dashed;
+    outline: none;
+    font-size: var(--step-1);
+    text-align: center;
+    width: 50%;
+
+
+    &::placeholder {
+        color: #fff;
+        opacity: .6;
+        font-size: 90%;
+        display: inline-block;
+        text-align: center;
+        width: 90%;
+
+    }
+}
+
+.name__button {
+    padding: var(--space-xs);
+    // font-size: var(--step-0);
+    // text-transform: uppercase;
+    background-image: url("../svg/save.svg");
+    // filter: invert(32%) sepia(0%) saturate(120%) hue-rotate(178deg) brightness(105%) contrast(81%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    transition: all .5s;
+    opacity: .8;
+    width: var(--space-m);
+    // width: 90%;
+    // border: 1px #fff solid transparent;
+    // border-bottom: 1px #fff solid;
+    // border-radius: var(--space-3xs);
+    background-color: transparent; //rgba($color: #fff, $alpha: .9);
+
+
+    &:hover {
+        // color: #333;
+        // background-color: rgba($color: #fff, $alpha: 1);
+        // font-weight: 700;
+        transition: all .5s;
+        opacity: 1;
+        // border: 1px #fff solid;
+        // border-radius: var(--space-3xs);
+
+    }
+}
+
+@media (min-width: 500px) {
+    .name__input {
+        // flex: 1;
+        // max-width: 50%;
+        margin: 10px;
+    }
+
+    .name__button {
+        // flex: 1;
+        max-width: 50%;
+        margin: 10px;
+    }
+
+    .name__wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 800px;
+    }
+}
+
+
+
+
+
+
+.greeting__wrapper {
+    display: flex;
+    // width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: var(--step-2);
+}
+
+
+
+
+.hidden {
+    display: none;
+    transition: all 1s;
+}

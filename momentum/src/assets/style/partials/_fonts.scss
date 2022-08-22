@@ -1,0 +1,65 @@
+/* pt-sans-regular - latin_cyrillic */
+@font-face {
+    font-family: "PT Sans-fallback";
+    size-adjust: 92.90%;
+    ascent-override: 106%;
+    src: local("Arial");
+  }
+  
+  
+  @font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.svg#PTSans') format('svg'); /* Legacy iOS */
+  }
+  
+  /* pt-sans-italic - latin_cyrillic */
+  @font-face {
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.svg#PTSans') format('svg'); /* Legacy iOS */
+  }
+  
+  /* pt-sans-700 - latin_cyrillic */
+  @font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.svg#PTSans') format('svg'); /* Legacy iOS */
+  }
+  
+  
+  @font-face {
+    font-family: 'owfont';
+    src: url('../fonts/owfont/owfont-regular.eot?v=1.0.0');
+    src: local(''),
+      url('../fonts/owfont/owfont-regular.eot?#iefix&v=1.0.0') format('embedded-opentype'),
+       url('../fonts/owfont/owfont-regular.woff') format('woff'),
+       url('../fonts/owfont/owfont-regular.ttf') format('truetype'),
+       url('../fonts/owfont/owfont-regular.svg#owf-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  } 
